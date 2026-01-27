@@ -17,7 +17,7 @@ release metadata for Google Photos ReVanced.
 
 All release artifacts are available in the **GitHub Releases** section:
 
-➡️ **Download:** https://github.com/Arjunkm145/Google-photos-revanced-cli/releases/latest
+➡️ **Download:** https://github.com/4rjunKM/Google-photos-revanced-cli/releases/latest
 
 Releases are generated using official ReVanced components and
 standardized CLI workflows.
