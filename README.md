@@ -19,19 +19,11 @@ Generated using a reproducible ReVanced CLI pipeline.
   <img src="https://img.shields.io/badge/Get_on-GitHub-black?style=for-the-badge&logo=github">
 </a>
 
-<a href="https://github.com/4rjunKM/Google-photos-revanced-cli">
+<a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22google.photos.revanced.pixelspoof%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2F4rjunKM%2FGoogle-photos-revanced-cli%22%2C%22author%22%3A%224rjunKM%22%2C%22name%22%3A%22Google%20Photos%20ReVanced%22%2C%22preferredApkIndex%22%3A0%2C%22additionalSettings%22%3A%22%7B%5C%22autoApkFilterByArch%5C%22%3Atrue%2C%5C%22fallbackToOlderReleases%5C%22%3Atrue%7D%22%7D">
   <img src="https://img.shields.io/badge/Add_to-Obtainium-purple?style=for-the-badge&logo=android">
 </a>
 
 </p>
-
-> To add this app to **Obtainium**:
-> 1. Open Obtainium  
-> 2. Tap **Add App** → **Import from GitHub**  
-> 3. Paste:
-> ```
-> 4rjunKM/Google-photos-revanced-cli
-> ```
 
 ---
 
@@ -85,4 +77,3 @@ This is an **unofficial mod**.
 Google and ReVanced are not affiliated with this project.  
 All trademarks belong to their respective owners.  
 Use at your own risk.
-
