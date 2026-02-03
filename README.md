@@ -1,73 +1,73 @@
 # 📸 Google Photos ReVanced — CLI Releases
 
-![Latest Release](https://img.shields.io/github/v/release/Arjunkm145/Google-photos-revanced-cli)
-![Build Method](https://img.shields.io/badge/build-ReVanced%20CLI-orange)
+![Latest Release](https://img.shields.io/github/v/release/4rjunKM/Google-photos-revanced-cli)
+![Build](https://img.shields.io/badge/build-ReVanced%20CLI-orange)
+![Android](https://img.shields.io/badge/android-6.0%2B-green)
 ![Java](https://img.shields.io/badge/java-11%2B-red)
-![License](https://img.shields.io/badge/license-GPL--3.0-green)
+![License](https://img.shields.io/badge/license-GPL--3.0-blue)
 
-Official **release repository** for **Google Photos ReVanced** builds
-generated using the **ReVanced CLI toolchain**.
-
-This repository publishes the **latest release artifacts** and
-release metadata for Google Photos ReVanced.
+Pixel-spoof enabled Google Photos builds  
+Generated using a reproducible ReVanced CLI pipeline.
 
 ---
 
-## 🚀 Latest Release
+## ⬇️ Get the App
 
-All release artifacts are available in the **GitHub Releases** section:
-
-➡️ **Download:** https://github.com/4rjunKM/Google-photos-revanced-cli/releases/latest
-
-Releases are generated using official ReVanced components and
-standardized CLI workflows.
+| Platform | Action |
+|---------|--------|
+| GitHub | [⬇ Download Latest](https://github.com/4rjunKM/Google-photos-revanced-cli/releases/latest) |
+| Obtainium | [➕ Add to Obtainium](obtainium://add?url=https://github.com/4rjunKM/Google-photos-revanced-cli) |
 
 ---
 
-## 🔍 About This Repository
+## 📱 Architecture Downloads
 
-This is a **release distribution repository**, not a development tool.
-
-It acts as:
-
-- A central distribution point for Google Photos ReVanced
-- A release tracking surface
-- A reproducible CLI-based build pipeline
-- A stable alternative to GUI-based patchers
+| Architecture | Recommended For | Download |
+|-------------|-----------------|----------|
+| **ARM64 (arm64-v8a)** | Most modern Android phones | [⬇ Download](https://github.com/4rjunKM/Google-photos-revanced-cli/releases/latest/download/GooglePhotos-ReVanced-PixelSpoof-v7.60.0-arm64-v8a.apk) |
+| **ARMv7 (armeabi-v7a)** | Older 32-bit phones | [⬇ Download](https://github.com/4rjunKM/Google-photos-revanced-cli/releases/latest/download/GooglePhotos-ReVanced-PixelSpoof-v7.60.0-armeabi-v7a.apk) |
 
 ---
 
-## 📦 Scope
+## 🛠 Installation Steps
 
-### This repository provides:
-- Latest release artifacts
-- Versioned release history
-- CLI-based build model
-- Release transparency
-
-### This repository does NOT provide:
-- Source code for Google Photos
-- Reverse-engineered binaries
-- Any proprietary content
+1. Uninstall existing Google Photos (disable first if system app)
+2. Download the APK for your device architecture
+3. Install the APK
+4. Open Google Photos and sign in
+5. Disable Play Store auto-updates for Google Photos
 
 ---
 
-## 🛠 Build Toolchain
+## 🔧 Build Information
 
-All releases are generated using:
-
-| Component | Description |
-|----------|-------------|
-| Java 11+ | Runtime environment |
-| ReVanced CLI | Official patching engine |
-| ReVanced patches | Upstream patch definitions |
-| Original APK | Base application |
+| Field | Value |
+|------|-------|
+| Base App | Google Photos 7.60.0 |
+| Target | 7.61.0.860908034 |
+| Patch Engine | ReVanced CLI |
+| Feature | Pixel device spoof |
+| Min Android | 6.0+ |
+| DPI | nodpi |
 
 ---
 
-## 🔁 Build Method (Reference)
+## 📦 Project Purpose
 
-Releases are produced using the standard CLI invocation:
+This repository is a **release distribution hub**, not a development project.
 
-```bash
-java -jar revanced-cli.jar patch -p patches.rvp -o Output.apk input.apk
+It exists to:
+- Publish verified release artifacts
+- Track version history
+- Provide a reproducible CLI build model
+- Offer a stable distribution endpoint
+
+---
+
+## ⚠ Disclaimer
+
+This is an **unofficial mod**.  
+Google and ReVanced are not affiliated with this project.  
+All trademarks belong to their respective owners.  
+Use at your own risk.
+
