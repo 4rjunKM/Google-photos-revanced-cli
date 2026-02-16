@@ -1,4 +1,4 @@
-# 📸 Google Photos ReVanced — CLI Releases
+# 📸 Google Photos ReVanced — CLI Releases (ARM64 Protection Build)
 
 ![Latest Release](https://img.shields.io/github/v/release/4rjunKM/Google-photos-revanced-cli)
 ![Build](https://img.shields.io/badge/build-ReVanced%20CLI-orange)
@@ -6,8 +6,8 @@
 ![Java](https://img.shields.io/badge/java-11%2B-red)
 ![License](https://img.shields.io/badge/license-GPL--3.0-blue)
 
-Pixel-spoof enabled Google Photos builds  
-Generated using a reproducible ReVanced CLI pipeline.
+Google Photos ReVanced build generated using a reproducible ReVanced CLI pipeline.  
+This release provides **ARM64-only APK** with **protection patch applied**.
 
 ---
 
@@ -19,30 +19,29 @@ Generated using a reproducible ReVanced CLI pipeline.
   <img src="https://img.shields.io/badge/Get_on-GitHub-black?style=for-the-badge&logo=github">
 </a>
 
-<a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22google.photos.revanced.pixelspoof%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2F4rjunKM%2FGoogle-photos-revanced-cli%22%2C%22author%22%3A%224rjunKM%22%2C%22name%22%3A%22Google%20Photos%20ReVanced%22%2C%22preferredApkIndex%22%3A0%2C%22additionalSettings%22%3A%22%7B%5C%22autoApkFilterByArch%5C%22%3Atrue%2C%5C%22fallbackToOlderReleases%5C%22%3Atrue%7D%22%7D">
-  <img src="https://img.shields.io/badge/Add_to-Obtainium-purple?style=for-the-badge&logo=android">
-</a>
-
 </p>
 
 ---
 
-## 📱 Architecture Downloads
+## 📱 Download (ARM64 Only)
 
 | Architecture | Recommended For | Download |
 |-------------|-----------------|----------|
-| **ARM64 (arm64-v8a)** | Most modern Android phones | [⬇ Download](https://github.com/4rjunKM/Google-photos-revanced-cli/releases/latest/download/GooglePhotos-ReVanced-PixelSpoof-v7.60.0-arm64-v8a.apk) |
-| **ARMv7 (armeabi-v7a)** | Older 32-bit devices | [⬇ Download](https://github.com/4rjunKM/Google-photos-revanced-cli/releases/latest/download/GooglePhotos-ReVanced-PixelSpoof-v7.60.0-armeabi-v7a.apk) |
+| **ARM64 (arm64-v8a)** | Modern Android devices (64-bit) | [⬇ Download](https://github.com/4rjunKM/Google-photos-revanced-cli/releases/latest/download/GooglePhotos-ReVanced-PixelSpoof-v7.60.0-arm64-v8a.apk) |
+
+✔ Only ARM64 build is provided  
+✔ Protection patch enabled  
+❌ No ARMv7 / 32-bit variants
 
 ---
 
 ## 🛠 Installation
 
-1. Uninstall existing Google Photos (disable first if it’s a system app)
-2. Download the APK that matches your CPU architecture
-3. Install the APK
+1. Disable or uninstall existing Google Photos
+2. Download the ARM64 APK
+3. Install manually
 4. Open Google Photos and sign in
-5. Disable Play Store auto-updates for Google Photos
+5. Disable Play Store auto-updates
 
 ---
 
@@ -51,11 +50,11 @@ Generated using a reproducible ReVanced CLI pipeline.
 | Field | Value |
 |------|-------|
 | Base App | Google Photos 7.60.0 |
-| Target | 7.61.0.860908034 |
 | Patch Engine | ReVanced CLI |
-| Feature | Pixel device spoof |
-| Min Android | 6.0+ |
+| Included Patch | Protection |
+| Architecture | arm64-v8a |
 | DPI | nodpi |
+| Min Android | 6.0+ |
 
 ---
 
@@ -64,7 +63,7 @@ Generated using a reproducible ReVanced CLI pipeline.
 This repository is a **release distribution hub**, not a development project.
 
 It exists to:
-- Publish verified release artifacts
+- Publish verified ARM64 protection builds
 - Track version history
 - Provide a reproducible CLI build model
 - Offer a stable distribution endpoint
