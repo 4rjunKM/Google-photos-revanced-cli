@@ -4,13 +4,13 @@
 
 # Google Photos ReVanced CLI
 
-Advanced Google Photos patching workflow powered by ReVanced.
+Modern ReVanced CLI workflow for generating patched Google Photos builds with a lightweight and reproducible release pipeline.
 
-Lightweight • Reproducible • ARM64 Optimized
+Stable ARM64 Releases • Automated Distribution • Obtainium Ready
 
 <br>
 
-<img src="https://img.shields.io/github/v/release/4rjunKM/Google-photos-revanced-cli?style=for-the-badge&logo=github&label=Release">
+<img src="https://img.shields.io/github/v/release/4rjunKM/Google-photos-revanced-cli?style=for-the-badge&logo=github&label=Latest%20Release">
 <img src="https://img.shields.io/github/downloads/4rjunKM/Google-photos-revanced-cli/total?style=for-the-badge&logo=github&label=Downloads">
 <img src="https://img.shields.io/github/license/4rjunKM/Google-photos-revanced-cli?style=for-the-badge">
 
@@ -32,117 +32,94 @@ height="60">
 
 ---
 
+# Overview
+
+Google Photos ReVanced CLI delivers reproducible patched Google Photos builds generated through the ReVanced patching ecosystem.
+
+The project is focused on maintaining a clean and transparent release workflow while providing optimized ARM64 builds for modern Android devices.
+
+Designed for:
+
+* Stable release distribution
+* Lightweight APK delivery
+* Automated update tracking
+* Reproducible patch generation
+* Transparent CLI-based workflows
+
+---
+
 # Features
 
-* ARM64 optimized release build
-* Protection patch enabled
-* Stable aligned & signed APK
-* Lightweight CLI patching workflow
-* Reproducible build process
-* Clean release distribution model
-* Compatible with modern Android devices
+### ARM64 Optimized Releases
+
+Release builds are optimized for modern 64-bit Android devices.
+
+### Protection Patch Integration
+
+Integrated protection patch support for compatible Google Photos builds.
+
+### Reproducible Build Workflow
+
+All releases are generated using a structured ReVanced CLI pipeline for consistency and reliability.
+
+### Stable Signed APKs
+
+Generated APKs are aligned and signed for installation readiness and runtime stability.
+
+### Obtainium Integration
+
+Supports direct repository import into Obtainium for automated release tracking and update delivery.
 
 ---
 
-# Supported Version
+# Current Release
 
-```text
-Google Photos 7.60.0
+```text id="z5x2nn"
+Google Photos 7.74.0
 ```
-
----
-
-# Included Patch
-
-### Protection Patch
-
-Applies protection-related modifications designed for compatible ARM64 devices.
-
----
-
-# Download
-
-| Architecture | Variant          | Status      |
-| ------------ | ---------------- | ----------- |
-| arm64-v8a    | Protection Build | Recommended |
-
-✔ Only ARM64 build is provided
-✔ Protection patch enabled
-❌ No ARMv7 / 32-bit variants
 
 ---
 
 # Installation
 
-1. Disable or uninstall existing Google Photos
-2. Download the ARM64 APK
-3. Install manually
-4. Open Google Photos and sign in
-5. Disable Play Store auto-updates
+## GitHub Releases
+
+Download the latest release APK directly from the releases section.
+
+## Obtainium
+
+Tap the Obtainium badge above on Android devices to directly import this repository into Obtainium.
+
+Obtainium automatically:
+
+* Detects new releases
+* Tracks updates
+* Downloads APK assets
+* Handles installation workflows
 
 ---
 
-# Obtainium Support
+# Compatibility
 
-Tap the Obtainium badge above on Android to directly import this repository into Obtainium.
-
-Obtainium will automatically:
-
-* Detect releases
-* Notify updates
-* Download APK assets
-* Install updates directly
+| Component       | Support        |
+| --------------- | -------------- |
+| Architecture    | arm64-v8a      |
+| Android Version | Android 6.0+   |
+| Distribution    | Stable Release |
+| Patch Framework | ReVanced CLI   |
 
 ---
 
-# Release File
+# Installation Notes
 
-```text
-GooglePhotos-ReVanced-PixelSpoof-v7.60.0-arm64-v8a.apk
-```
-
----
-
-# Build Information
-
-| Field           | Value                |
-| --------------- | -------------------- |
-| Base App        | Google Photos 7.60.0 |
-| Patch Engine    | ReVanced CLI         |
-| Included Patch  | Protection           |
-| Architecture    | arm64-v8a            |
-| DPI             | nodpi                |
-| Minimum Android | Android 6.0+         |
+* Existing Google Photos installations may need to be removed before installation
+* ARM64 devices only
+* Play Store automatic updates should be disabled after installation
+* Patch compatibility depends on upstream Google Photos changes
 
 ---
 
-# Project Structure
-
-```text
-Google-photos-revanced-cli/
-├── assets/
-│   └── banner.png
-├── input/
-├── output/
-├── tools/
-├── patches.json
-└── patch.bat
-```
-
----
-
-# Build Status
-
-```text
-✅ APK patched successfully
-✅ APK aligned successfully
-✅ APK signed successfully
-✅ Ready for installation
-```
-
----
-
-# Build Tools Used
+# Toolchain
 
 * ReVanced CLI
 * ReVanced Patches
@@ -150,25 +127,16 @@ Google-photos-revanced-cli/
 
 ---
 
-# Project Purpose
+# Repository Purpose
 
-This repository acts as a release distribution hub for reproducible Google Photos ReVanced CLI builds.
+This repository acts as a release distribution platform for reproducible Google Photos ReVanced builds.
 
-It is intended to:
+Primary objectives:
 
-* Publish ARM64 protection builds
-* Track release history
-* Provide reproducible CLI patching workflow
-* Maintain a stable APK distribution endpoint
-
----
-
-# Notes
-
-* APK binaries are not included inside this repository
-* ARM64 builds only
-* Patch compatibility depends on upstream Google Photos versions
-* Play Store auto-updates should be disabled after installation
+* Maintain stable ARM64 releases
+* Preserve reproducible patch workflows
+* Provide streamlined APK distribution
+* Support automated update delivery through Obtainium
 
 ---
 
@@ -185,5 +153,5 @@ It is intended to:
 
 Google Photos™ is a trademark of Google LLC.
 
-This repository does not distribute proprietary applications or paid content.
+This repository does not distribute proprietary applications or paid software.
 Provided strictly for educational, research, and customization purposes.
