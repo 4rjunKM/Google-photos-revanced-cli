@@ -1,4 +1,4 @@
-# 📸 Google Photos ReVanced — CLI Releases (ARM64 Protection Build)
+# 📸 Google Photos ReVanced — CLI Releases
 
 ![Build](https://img.shields.io/badge/build-ReVanced%20CLI-orange)
 ![Android](https://img.shields.io/badge/android-6.0%2B-green)
