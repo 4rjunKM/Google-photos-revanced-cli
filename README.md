@@ -1,40 +1,78 @@
-# 📸 Google Photos ReVanced — CLI Releases
+<div align="center">
 
-![Build](https://img.shields.io/badge/build-ReVanced%20CLI-orange)
-![Android](https://img.shields.io/badge/android-6.0%2B-green)
-![Java](https://img.shields.io/badge/java-11%2B-red)
-![License](https://img.shields.io/badge/license-GPL--3.0-blue)
+<img src="https://raw.githubusercontent.com/4rjunKM/Google-photos-revanced-cli/main/assets/banner.png" alt="Banner" width="100%">
 
-Google Photos ReVanced build generated using a reproducible ReVanced CLI pipeline.  
-This release provides **ARM64-only APK** with **protection patch applied**.
+# Google Photos ReVanced CLI
 
----
+Advanced Google Photos patching workflow powered by ReVanced.
 
-## ⬇️ Get the App
+Lightweight • Reproducible • ARM64 Optimized
 
-<p align="center">
+<br>
 
-<a href="https://github.com/4rjunKM/Google-photos-revanced-cli/releases/latest">
-  <img src="https://img.shields.io/badge/Get_on-GitHub-black?style=for-the-badge&logo=github">
+<img src="https://img.shields.io/github/v/release/4rjunKM/Google-photos-revanced-cli?style=for-the-badge&logo=github&label=Release">
+<img src="https://img.shields.io/github/downloads/4rjunKM/Google-photos-revanced-cli/total?style=for-the-badge&logo=github&label=Downloads">
+<img src="https://img.shields.io/github/license/4rjunKM/Google-photos-revanced-cli?style=for-the-badge">
+
+<br><br>
+
+<a href="../../releases">
+<img src="https://img.shields.io/badge/Get%20it%20on-GitHub-black?style=for-the-badge&logo=github"
+alt="GitHub Releases"
+height="60">
 </a>
 
-</p>
+<a href="obtainium://add/https://github.com/4rjunKM/Google-photos-revanced-cli">
+<img src="https://img.shields.io/badge/Get%20it%20on-Obtainium-4285F4?style=for-the-badge&logo=android&logoColor=white"
+alt="Obtainium"
+height="60">
+</a>
+
+</div>
 
 ---
 
-## 📱 Download (ARM64 Only)
+# Features
 
-| Architecture | Recommended For | Download |
-|-------------|-----------------|----------|
-| **ARM64 (arm64-v8a)** | Modern Android devices (64-bit) | [⬇ Download](https://github.com/4rjunKM/Google-photos-revanced-cli/releases/latest/download/GooglePhotos-ReVanced-PixelSpoof-v7.60.0-arm64-v8a.apk) |
+* ARM64 optimized release build
+* Protection patch enabled
+* Stable aligned & signed APK
+* Lightweight CLI patching workflow
+* Reproducible build process
+* Clean release distribution model
+* Compatible with modern Android devices
 
-✔ Only ARM64 build is provided  
-✔ Protection patch enabled  
+---
+
+# Supported Version
+
+```text
+Google Photos 7.60.0
+```
+
+---
+
+# Included Patch
+
+### Protection Patch
+
+Applies protection-related modifications designed for compatible ARM64 devices.
+
+---
+
+# Download
+
+| Architecture | Variant          | Status      |
+| ------------ | ---------------- | ----------- |
+| arm64-v8a    | Protection Build | Recommended |
+
+✔ Only ARM64 build is provided
+✔ Protection patch enabled
 ❌ No ARMv7 / 32-bit variants
 
 ---
 
-## 🛠 Installation
+# Installation
 
 1. Disable or uninstall existing Google Photos
 2. Download the ARM64 APK
@@ -44,47 +82,108 @@ This release provides **ARM64-only APK** with **protection patch applied**.
 
 ---
 
-## 🔧 Build Information
+# Obtainium Support
 
-| Field | Value |
-|------|-------|
-| Base App | Google Photos 7.60.0 |
-| Patch Engine | ReVanced CLI |
-| Included Patch | Protection |
-| Architecture | arm64-v8a |
-| DPI | nodpi |
-| Min Android | 6.0+ |
+Tap the Obtainium badge above on Android to directly import this repository into Obtainium.
 
----
+Obtainium will automatically:
 
-## 🧰 Build Tools Used
-
-- **ReVanced CLI**  
-  https://github.com/revanced/revanced-cli
-
-- **ReVanced Patches**  
-  https://github.com/revanced/revanced-patches
-
-- **ReVanced Integrations**  
-  https://github.com/revanced/revanced-integrations
+* Detect releases
+* Notify updates
+* Download APK assets
+* Install updates directly
 
 ---
 
-## 📦 Project Purpose
+# Release File
 
-This repository is a **release distribution hub**, not a development project.
-
-It exists to:
-- Publish verified ARM64 protection builds
-- Track version history
-- Provide a reproducible CLI build model
-- Offer a stable distribution endpoint
+```text
+GooglePhotos-ReVanced-PixelSpoof-v7.60.0-arm64-v8a.apk
+```
 
 ---
 
-## ⚠ Disclaimer
+# Build Information
 
-This is an **unofficial mod**.  
-Google and ReVanced are not affiliated with this project.  
-All trademarks belong to their respective owners.  
-Use at your own risk.
+| Field           | Value                |
+| --------------- | -------------------- |
+| Base App        | Google Photos 7.60.0 |
+| Patch Engine    | ReVanced CLI         |
+| Included Patch  | Protection           |
+| Architecture    | arm64-v8a            |
+| DPI             | nodpi                |
+| Minimum Android | Android 6.0+         |
+
+---
+
+# Project Structure
+
+```text
+Google-photos-revanced-cli/
+├── assets/
+│   └── banner.png
+├── input/
+├── output/
+├── tools/
+├── patches.json
+└── patch.bat
+```
+
+---
+
+# Build Status
+
+```text
+✅ APK patched successfully
+✅ APK aligned successfully
+✅ APK signed successfully
+✅ Ready for installation
+```
+
+---
+
+# Build Tools Used
+
+* ReVanced CLI
+* ReVanced Patches
+* ReVanced Integrations
+
+---
+
+# Project Purpose
+
+This repository acts as a release distribution hub for reproducible Google Photos ReVanced CLI builds.
+
+It is intended to:
+
+* Publish ARM64 protection builds
+* Track release history
+* Provide reproducible CLI patching workflow
+* Maintain a stable APK distribution endpoint
+
+---
+
+# Notes
+
+* APK binaries are not included inside this repository
+* ARM64 builds only
+* Patch compatibility depends on upstream Google Photos versions
+* Play Store auto-updates should be disabled after installation
+
+---
+
+# Credits
+
+* ReVanced Team
+* ReVanced Patcher Developers
+* Open-source contributors
+* Community testers
+
+---
+
+# Disclaimer
+
+Google Photos™ is a trademark of Google LLC.
+
+This repository does not distribute proprietary applications or paid content.
+Provided strictly for educational, research, and customization purposes.
